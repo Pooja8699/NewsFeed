@@ -1,0 +1,809 @@
+2019-12-31 11:26:30 [scrapy] DEBUG: Crawled (200) <GET https://www.reuters.com/robots.txt> (referer: None)
+2019-12-31 11:26:30 [scrapy] DEBUG: Crawled (200) <GET https://inshorts.com/robots.txt> (referer: None)
+2019-12-31 11:26:30 [scrapy] DEBUG: Crawled (200) <GET https://www.reuters.com/places/india> (referer: None)
+2019-12-31 11:26:31 [scrapy] DEBUG: Crawled (200) <GET https://timesofindia.indiatimes.com/robots.txt> (referer: None)
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['Environment'],
+ 'story': ['The second coldest weather in 119 years sweeping across western '
+           'and northern India has led to dense fog, killing at least six '
+           'people and disrupting many parts of the country, including the '
+           'capital New\xa0Delhi.'],
+ 'story_time': ['17 hours ago'],
+ 'title': ['Freezing weather causes deaths in India and\xa0Bangladesh']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['Environment'],
+ 'story': ["Indian Prime Minister Narendra Modi's office has proposed waiving "
+           'a tax on coal to help finance pollution-curbing equipment, '
+           'according to documents, but the move would also make coal more '
+           'competitive in price with solar and wind\xa0energy.'],
+ 'story_time': ['17 hours ago'],
+ 'title': ["Exclusive: Indian PM Modi's office proposes waiving carbon tax "
+           'on\xa0coal']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': [' (This corrects paragraph 9 to remove reference to the majority of '
+           'excluded residents in Assam being Muslim, amends to show there was '
+           'no official breakdown by religion in December 23\xa0story.)'],
+ 'story_time': ['2 days ago'],
+ 'title': ["Explainer: Why India's new citizenship plans are stirring\xa0"
+           'protests']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["India's tourism industry has been hit by a wave of violent "
+           'anti-government protests against a new citizenship law that have '
+           'rocked several cities this month, with at least seven countries '
+           'issuing travel\xa0warnings.'],
+ 'story_time': ['2 days ago'],
+ 'title': ['Tourists stay away from Taj Mahal, other Indian attractions as '
+           'protests\xa0flare']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["The chief minister of India's Uttar Pradesh state has rebuffed "
+           'accusations from rights groups of police abuses during protests '
+           'against a new citizenship law, crediting his tough stand with '
+           'restoring calm to the\xa0streets.'],
+ 'story_time': ['2 days ago'],
+ 'title': ["Hardline leader in Indian state defends 'strict' action to "
+           'quell\xa0protests']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['India deployed thousands of police and shut down mobile internet '
+           'services across many cities on Friday to control protests against '
+           'a new citizenship law, with flashpoint Friday prayers passing '
+           'largely\xa0peacefully.'],
+ 'story_time': ['4 days ago'],
+ 'title': ['India security clampdown keeps citizenship law protests under\xa0'
+           'control']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["A Norwegian woman on holiday in India's southern state of Kerala "
+           'has been told to leave the country after she joined a protest '
+           "against Prime Minister Narendra Modi's new citizenship law, "
+           'authorities said on\xa0Friday.'],
+ 'story_time': ['4 days ago'],
+ 'title': ['Norwegian, 71, told to leave India after joining citizenship '
+           'law\xa0protest']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['When the young woman limped toward shopkeeper Ravindra Prakash, '
+           'pleading for help on a dark and foggy morning in the northern '
+           'Indian village, her body was so charred that he thought she was a '
+           'witch. He grabbed a wooden stick and tried to shoo her\xa0away.'],
+ 'story_time': ['4 days ago'],
+ 'title': ["In an Indian village, a woman's killing and alleged rape opens "
+           'caste\xa0divides']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': [' (This Dec. 10 story has been refiled to correct to remove extra '
+           'comma in penultimate\xa0paragraph)'],
+ 'story_time': ['4 days ago'],
+ 'title': ['The Runaway\xa0Husbands']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['Communities across Asia commemorated the more than 230,000 victims '
+           'of the Indian Ocean tsunami on Thursday, the 15th anniversary of '
+           "one of the world's most deadly\xa0disasters."],
+ 'story_time': ['5 days ago'],
+ 'title': ["'I'm still scared' - Asia remembers tsunami that killed\xa0"
+           '230,000']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["Indian Prime Minister Narendra Modi's government did not "
+           'anticipate the protests against a new citizenship law that have '
+           'raged across the country and is now scrambling to control the '
+           'damage, members of his ruling party\xa0said.'],
+ 'story_time': ['5 days ago'],
+ 'title': ["Blindspot to backlash: India's Modi and party misread the\xa0mood"]}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["India's northern Uttar Pradesh state is demanding millions of "
+           'rupees from over 200 people and threatening to confiscate their '
+           'property as a penalty for damage done to public property during '
+           "protests against the country's new citizenship\xa0law."],
+ 'story_time': ['5 days ago'],
+ 'title': ['Indian state demands damages, threatens to confiscate property '
+           'over\xa0protests']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['Business News'],
+ 'story': ['Indian initial public offerings tumbled to a 4-year low by value '
+           'in 2019 as the economy slowed, but some analysts are hoping for '
+           'better in 2020 on the back of potential government reforms likely '
+           'to boost stock\xa0markets.'],
+ 'story_time': ['5 days ago'],
+ 'title': ['Indian IPOs fall to four-year low as economy\xa0falters']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['Singapore police are investigating an Indian national for '
+           'allegedly being involved in a public protest against Indian Prime '
+           "Minister Narendra Modi's controversial citizenship\xa0law."],
+ 'story_time': ['5 days ago'],
+ 'title': ['Singapore police probe Indian for alleged Modi citizenship law\xa0'
+           'protest']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['Environment'],
+ 'story': ['The second coldest weather in 119 years sweeping across western '
+           'and northern India has led to dense fog, killing at least six '
+           'people and disrupting many parts of the country, including the '
+           'capital New\xa0Delhi.'],
+ 'story_time': ['17 hours ago'],
+ 'title': ['Freezing weather causes deaths in India and\xa0Bangladesh']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['Environment'],
+ 'story': ["Indian Prime Minister Narendra Modi's office has proposed waiving "
+           'a tax on coal to help finance pollution-curbing equipment, '
+           'according to documents, but the move would also make coal more '
+           'competitive in price with solar and wind\xa0energy.'],
+ 'story_time': ['17 hours ago'],
+ 'title': ["Exclusive: Indian PM Modi's office proposes waiving carbon tax "
+           'on\xa0coal']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': [' (This corrects paragraph 9 to remove reference to the majority of '
+           'excluded residents in Assam being Muslim, amends to show there was '
+           'no official breakdown by religion in December 23\xa0story.)'],
+ 'story_time': ['2 days ago'],
+ 'title': ["Explainer: Why India's new citizenship plans are stirring\xa0"
+           'protests']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["India's tourism industry has been hit by a wave of violent "
+           'anti-government protests against a new citizenship law that have '
+           'rocked several cities this month, with at least seven countries '
+           'issuing travel\xa0warnings.'],
+ 'story_time': ['2 days ago'],
+ 'title': ['Tourists stay away from Taj Mahal, other Indian attractions as '
+           'protests\xa0flare']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["The chief minister of India's Uttar Pradesh state has rebuffed "
+           'accusations from rights groups of police abuses during protests '
+           'against a new citizenship law, crediting his tough stand with '
+           'restoring calm to the\xa0streets.'],
+ 'story_time': ['2 days ago'],
+ 'title': ["Hardline leader in Indian state defends 'strict' action to "
+           'quell\xa0protests']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['India deployed thousands of police and shut down mobile internet '
+           'services across many cities on Friday to control protests against '
+           'a new citizenship law, with flashpoint Friday prayers passing '
+           'largely\xa0peacefully.'],
+ 'story_time': ['4 days ago'],
+ 'title': ['India security clampdown keeps citizenship law protests under\xa0'
+           'control']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["A Norwegian woman on holiday in India's southern state of Kerala "
+           'has been told to leave the country after she joined a protest '
+           "against Prime Minister Narendra Modi's new citizenship law, "
+           'authorities said on\xa0Friday.'],
+ 'story_time': ['4 days ago'],
+ 'title': ['Norwegian, 71, told to leave India after joining citizenship '
+           'law\xa0protest']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['When the young woman limped toward shopkeeper Ravindra Prakash, '
+           'pleading for help on a dark and foggy morning in the northern '
+           'Indian village, her body was so charred that he thought she was a '
+           'witch. He grabbed a wooden stick and tried to shoo her\xa0away.'],
+ 'story_time': ['4 days ago'],
+ 'title': ["In an Indian village, a woman's killing and alleged rape opens "
+           'caste\xa0divides']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': [' (This Dec. 10 story has been refiled to correct to remove extra '
+           'comma in penultimate\xa0paragraph)'],
+ 'story_time': ['4 days ago'],
+ 'title': ['The Runaway\xa0Husbands']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['Communities across Asia commemorated the more than 230,000 victims '
+           'of the Indian Ocean tsunami on Thursday, the 15th anniversary of '
+           "one of the world's most deadly\xa0disasters."],
+ 'story_time': ['5 days ago'],
+ 'title': ["'I'm still scared' - Asia remembers tsunami that killed\xa0"
+           '230,000']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["Indian Prime Minister Narendra Modi's government did not "
+           'anticipate the protests against a new citizenship law that have '
+           'raged across the country and is now scrambling to control the '
+           'damage, members of his ruling party\xa0said.'],
+ 'story_time': ['5 days ago'],
+ 'title': ["Blindspot to backlash: India's Modi and party misread the\xa0mood"]}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ["India's northern Uttar Pradesh state is demanding millions of "
+           'rupees from over 200 people and threatening to confiscate their '
+           'property as a penalty for damage done to public property during '
+           "protests against the country's new citizenship\xa0law."],
+ 'story_time': ['5 days ago'],
+ 'title': ['Indian state demands damages, threatens to confiscate property '
+           'over\xa0protests']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['Business News'],
+ 'story': ['Indian initial public offerings tumbled to a 4-year low by value '
+           'in 2019 as the economy slowed, but some analysts are hoping for '
+           'better in 2020 on the back of potential government reforms likely '
+           'to boost stock\xa0markets.'],
+ 'story_time': ['5 days ago'],
+ 'title': ['Indian IPOs fall to four-year low as economy\xa0falters']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://www.reuters.com/places/india>
+{'category': ['World News'],
+ 'story': ['Singapore police are investigating an Indian national for '
+           'allegedly being involved in a public protest against Indian Prime '
+           "Minister Narendra Modi's controversial citizenship\xa0law."],
+ 'story_time': ['5 days ago'],
+ 'title': ['Singapore police probe Indian for alleged Modi citizenship law\xa0'
+           'protest']}
+2019-12-31 11:26:31 [scrapy] DEBUG: Crawled (200) <GET https://timesofindia.indiatimes.com/india> (referer: None)
+2019-12-31 11:26:31 [scrapy] DEBUG: Scraped from <200 https://timesofindia.indiatimes.com/india>
+{'story_time': ['31 Dec 2019, 11:01',
+                '31 Dec 2019, 10:41',
+                '31 Dec 2019, 10:40',
+                '31 Dec 2019, 10:26',
+                '31 Dec 2019, 10:22',
+                '30 Dec 2019, 16:22',
+                '31 Dec 2019, 07:36',
+                '31 Dec 2019, 05:21',
+                '31 Dec 2019, 05:18',
+                '31 Dec 2019, 05:00',
+                '31 Dec 2019, 04:56',
+                '31 Dec 2019, 04:53',
+                '31 Dec 2019, 04:49',
+                '31 Dec 2019, 04:47',
+                '31 Dec 2019, 04:44',
+                '31 Dec 2019, 04:39',
+                '31 Dec 2019, 04:37',
+                '31 Dec 2019, 04:15',
+                '31 Dec 2019, 04:08',
+                '31 Dec 2019, 03:58',
+                '31 Dec 2019, 10:19',
+                '31 Dec 2019, 09:23',
+                '31 Dec 2019, 11:02',
+                '31 Dec 2019, 03:27',
+                '31 Dec 2019, 09:39',
+                '31 Dec 2019, 10:59',
+                '31 Dec 2019, 10:15',
+                '31 Dec 2019, 10:11',
+                '30 Dec 2019, 23:18',
+                '31 Dec 2019, 05:10',
+                '30 Dec 2019, 23:03',
+                '30 Dec 2019, 22:56',
+                '30 Dec 2019, 22:29',
+                '30 Dec 2019, 22:11',
+                '30 Dec 2019, 22:03',
+                '30 Dec 2019, 21:52',
+                '30 Dec 2019, 21:46',
+                '31 Dec 2019, 10:23',
+                '30 Dec 2019, 20:50',
+                '30 Dec 2019, 20:38',
+                '30 Dec 2019, 20:37',
+                '30 Dec 2019, 20:11',
+                '30 Dec 2019, 20:52',
+                '30 Dec 2019, 19:35',
+                '30 Dec 2019, 19:21',
+                '30 Dec 2019, 18:36',
+                '31 Dec 2019, 10:19',
+                '30 Dec 2019, 18:26',
+                '30 Dec 2019, 18:02',
+                '30 Dec 2019, 20:39'],
+ 'title': ['Hope Army will rise to greater heights under the new Army Chief: '
+           'General Bipin Rawat',
+           'Priyanka Gandhi tweets Goddess Durga mantra',
+           'Congress Maharashtra ministers meet Rahul Gandhi',
+           "New Year's Eve: Google rings in 2020 with a doodle",
+           '2020 & beyond: 15 young stars to watch out for in the next decade',
+           'UK MP under fire for not taking oath on Gita',
+           'To check crime, coaches of all trains to get CCTV cameras by 2022: '
+           'Govt',
+           'Woman’s body found without head and legs',
+           '14 more kids die in Kota hospital, BJP looks to indict Congress '
+           'govt',
+           'Lens now on cash declarations made to Customs',
+           'With eye on tourists from China, India revamps policy',
+           'CBI takes over probe in IIT-M ‘suicide’ case',
+           'Centre may act against states opposing CAA, warns BJP MP',
+           'Act against any staffer critical of govt: Assam colleges told',
+           'No place for revenge in Hinduism: Priyanka Gandhi',
+           'Shashi Tharoor: Don’t give communal colour to stir',
+           'Cleric, 72, beaten up; police claim firing from inside madrassa',
+           'Our men not involved, say kin; will verify, say officials',
+           'Railways to make anti-CAA vandals cough up Rs 80 crore',
+           'Four Muslims get berths in Team Uddhav',
+           'Maharashtra governor pulls up two mantris for deviating from oath '
+           'text',
+           'Maharashtra deputy CM post for Ajit proves Pawar Sr can’t dump him',
+           'India betters sustainable development score, no state in lowest '
+           'category now',
+           'Uddhav Thackeray inducts son Aaditya into cabinet, Ajit Pawar back '
+           'as Maharashtra deputy CM',
+           'Shiv Sena’s alliance driver Sanjay Raut doesn’t attend swearing-in',
+           'PM Modi tweets Sadhguru video to drum up support for CAA',
+           'With max temperature at 9.4°C, Delhi gets its coldest day in 119 '
+           'years',
+           'CBI raids premises of 2 serving IAS officers, 6 retired J&K '
+           'officers over issuing of arms licenses to non-J&K residents',
+           '5 senior J&K politicians freed from detention',
+           'Proposed NPR will be "almost the same" as one in 2010: Kishan '
+           'Reddy',
+           "General Rawat's appointment as CDS a matter of pride and honour "
+           'for Uttarakhand: CM',
+           'Oppn cries foul as J&K HC opens district court vacancies on '
+           'pan-India basis',
+           'Yogi hits back at Priyanka, says he wore saffron clothes for '
+           "'public service'",
+           'India gets its first chief of defence staff: All you need to know',
+           "BJP leaders drive 'India supports CAA' campaign on social media",
+           'Army intensified pro-people activities in J&K after abrogation of '
+           'Article 370',
+           "General Bipin Rawat becomes India's  first-ever chief of defence "
+           'staff (CDS)',
+           'MEA denies recalling Indian ambassador to Austria',
+           'Priyanka stands with those who indulged in violence: UP deputy CM',
+           'Mamata will go to any lengths to secure vote bank: BJP',
+           'All states have to implement CAA, says Union minister Meghwal',
+           "Minor fire at SPG reception area at 9  Lok Kalyan Marg; PM's "
+           'office, residence not affected: PMO',
+           "Entire Nagaland declared 'disturbed' for six more months under "
+           'AFSPA',
+           "India's forest, tree cover up by 5,188 sq. km: Forest Report",
+           'Isro official ends meeting with melodious flute performance',
+           "Navy bans use of Facebook by personnel to prevent 'honey-trapping'",
+           'Uddhav Thackeray inducts son, 35 others; Ajit Pawar sworn in '
+           'deputy CM',
+           "'Opening of state jobs in J&K to outsiders unacceptable: JKNPP",
+           "'No place for revenge in Hinduism': Priyanka, UP govt spar over "
+           "Yogi's remark"]}
+2019-12-31 11:26:31 [scrapy] DEBUG: Crawled (200) <GET https://inshorts.com/en/read> (referer: None)
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Roshan Gupta',
+ 'story': ['With New Year around the corner, Uber is promising to make your '
+           'celebrations hassle free with Uber Premier, featuring select '
+           'sedans and top rated drivers, so that everyone can enjoy premium '
+           'experiences with their friends and family at affordable prices. '
+           'Riders can now rely on Uber Premier for a comfortable, convenient '
+           '& safe ride back home, says Uber.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:00 am',
+ 'title': ['Uber Premier aims to make your New Year celebrations hassle free']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ['Speaking about facing sexism in the South film industry years ago, '
+           'Neha Dhupia revealed, "[The filmmakers] always insisted on feeding '
+           'the hero first and I\'d just be like \'I\'m hungry\'." "They\'d be '
+           'like, \'But he\'s in a shot and he\'ll pick up the plate first\'," '
+           'she added. "But that was many years ago...Things like that don\'t '
+           'happen anymore," said Neha.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '08:48 am',
+ 'title': ["Filmmakers insisted on feeding hero 1st & I'd say I'm hungry: Neha "
+           'on sexism']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Kanishka Pandey',
+ 'story': ['Tesla and SpaceX founder and CEO Elon Musk took to Twitter to '
+           "condole the death of sci-fi visual artist Sydney Jay Mead, or 'Syd "
+           "Mead'. The industrial designer is best known for his concept art "
+           'for sci-fi movies Blade Runner, Tron, Star Trek: The Motion '
+           'Picture and Mission Impossible 3, among others. Mead died aged 86 '
+           'after battling lymphoma.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:07 am',
+ 'title': ["Your art will endure: Musk on sci-fi visual artist Syd Mead's "
+           'death']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Arshiya Chopra',
+ 'story': ['Amid anti-CAA protests, BJP National General Secretary Ram Madhav '
+           'said that if the party was against giving citizenship to Muslims, '
+           'it "wouldn\'t have given citizenship to singer Adnan Sami who\'s '
+           'from Pakistan". Further giving an example of a "waterproof watch", '
+           'Madhav said, "The mind of opposition leaders who are opposing the '
+           'CAA is knowledge proof and information proof."',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:11 am',
+ 'title': ["If BJP was against citizenship to Muslims, Adnan wouldn't have got "
+           'it: Madhav']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ['Singer Sona Mohapatra on Tuesday shared more pictures of herself '
+           "in a swimsuit after trolls commented 'wearing slut clothes' on her "
+           'previous swimsuit pictures. "Some felt let down, \'Thought you '
+           'were a serious person?!\'," she added. Sona also got into an '
+           "argument with hairstylist Sapna Bhavnani, who tweeted she's "
+           '"tired of women posing in skimpy clothes and thinking it\'s '
+           'feminism".',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '11:15 am',
+ 'title': ["Sona shares more pics in swimsuit after trolls write 'slut "
+           "clothes' on previous pics"]}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ['Pakistani filmmaker Jamshed Mahmood Raza, who in October alleged '
+           'being raped by a media giant 13 years ago, has revealed the '
+           "accused to be Hameed Haroon, CEO of Pakistan's newspaper Dawn. "
+           "Haroon has denied the allegations, saying he's initiating legal "
+           'action to clear his name. Raza later stated that coming forward '
+           'with his story was not about "[bringing] down Dawn".',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:15 am',
+ 'title': ['Male Pakistani filmmaker names CEO of media house as his rapist']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Jigyasu',
+ 'story': ['Railway property worth ₹80 crore was damaged during protests '
+           'across the country against the amended Citizenship Act, Railway '
+           'Board Chairman Vinod Kumar Yadav said. Its recovery will be made '
+           'from those found involved in arson and violence, Yadav added. '
+           'While the Eastern Railway suffered damages worth ₹70 crore, the '
+           'Northeast Frontier Railway suffered damages worth ₹10 crore, Yadav '
+           'further said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:18 am',
+ 'title': ['Will recover damages during anti-CAA protests from guilty: '
+           'Railways']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Anmol Sharma',
+ 'story': ["Adelaide Strikers' Afghan spinner Rashid Khan introduced his newly "
+           "designed bat dubbed 'The Camel' in Big Bash League. Unlike the "
+           "regular bats, Rashid's bat has a small depression on back side and "
+           'gives the look of a camel with two humps. SRH asked Rashid to '
+           'carry the bat for IPL 2020 to which he replied, "Definitely...will '
+           'be there as well."',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '07:54 am',
+ 'title': ["Rashid Khan introduces his 'camel' bat in BBL, SRH ask him to "
+           'carry it for IPL']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['Microsoft has said it seized control of 50 web domains run by a '
+           "hacking group called 'Thallium', believed to be operating from "
+           'North Korea. It said Thallium targeted government employees, think '
+           'tanks, university staffs and people working on nuclear '
+           "proliferation issues, among others. The hackers used 'spear "
+           "phishing' with legitimate-looking emails to direct the victims to "
+           'those malicious domains.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:16 am',
+ 'title': ['N Korea hackers stole sensitive data from govts, academics: '
+           'Microsoft']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Kanishka Pandey',
+ 'story': ['San Francisco-based museum of science, technology and arts, The '
+           "Exploratorium, features a website that calculates users' age on "
+           "any of Solar System's planets, as per their birthdate on Earth. "
+           'The site also tells users when they can celebrate their next '
+           'birthday as per a different planet. The age is calculated based on '
+           "the planets' rotation and revolution around the Sun.",
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:49 am',
+ 'title': ["Website calculates people's age on any planet in Solar System"]}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Kanishka Pandey',
+ 'story': ['A 39-year-old mother was arrested from her Bangkok apartment on '
+           'Christmas over an alleged extortion scheme by listing her '
+           '19-year-old specially-abled daughter on dating app Badoo. The '
+           'mother allegedly blackmailed seven men by accusing them of luring '
+           'her daughter for sex. The woman and her aide also allegedly wore '
+           'fake government uniforms to threaten victims with arrest and '
+           'extorted money.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '11:10 am',
+ 'title': ['Woman lists 19-yr-old disabled daughter on dating app in blackmail '
+           'scheme']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Kanishka Pandey',
+ 'story': ["French automaker Lazareth's over ₹3.5-crore (about £380,000) "
+           "motorcycle LMV 496, which can turn into a 'hover-cycle', has "
+           'neared production. Powered by four 96,000-rpm jet turbines, the '
+           "motorbike's kerosene tank is large enough to enable it to hover "
+           'above the ground for around 10 minutes. Just five units will be '
+           'produced worldwide, with four of them being sold to the public.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:45 am',
+ 'title': ["₹3.5 crore motorcycle that turns into 'hover-cycle' nears "
+           'production']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Kanishka Pandey',
+ 'story': ["Chinese startup Meituan Bike or 'Mobike' revealed that it lost "
+           'over 2 lakh of its "dockless" bikes to theft and vandalism in '
+           '2019. As per its blog, police in Beijing arrested 2,600 people in '
+           'relation to bike theft and vandalism. Notably, the startup '
+           'confirmed in March that it would exit several more Asian countries '
+           'after downscaling India operations in 2018.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:41 am',
+ 'title': ['Chinese startup says its 2 lakh bikes were stolen, damaged in '
+           '2019']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Arshiya Chopra',
+ 'story': ['General Bipin Rawat on Tuesday received his farewell as the Indian '
+           'Army chief after completing a three-year term. He paid tribute at '
+           'the National War Memorial and said, "I wish to convey my gratitude '
+           "to the soldiers, rank and file of Indian Army who've stood "
+           'steadfast under challenging circumstances." He was named the first '
+           'Chief of Defence Staff on Monday.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:19 am',
+ 'title': ['Gen Rawat receives farewell as Army Chief, pays tribute at '
+           'National War Memorial']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Jigyasu',
+ 'story': ['Kerala retained the top rank while Bihar was ranked at the bottom '
+           "in Niti Aayog's Sustainable Development Goals (SDG) India Index "
+           '2019. According to SDG India Index, states like Uttar Pradesh, '
+           'Odisha and Sikkim have shown maximum improvement in their rankings '
+           'since 2018. The SDG index evaluates the progress of states and '
+           'union territories on social, economic and environmental '
+           'parameters.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:47 am',
+ 'title': ["Kerala tops Niti Aayog's SDG Indian Index 2019, Bihar ranked last"]}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Jigyasu',
+ 'story': ['The United States on Tuesday congratulated General Bipin Rawat on '
+           "his appointment as India's first-ever Chief of Defence Staff "
+           '(CDS). The post will help in catalysing greater joint cooperation '
+           'between the militaries of the two countries, the US said. As CDS, '
+           "General Rawat's role would be to create synergy in operations and "
+           'finances of the Army, Navy and Air Force.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:50 am',
+ 'title': ["US congratulates Gen Rawat over his appointment as India's first "
+           'CDS']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Arshiya Chopra',
+ 'story': ['Around 4,000 holidaymakers and locals were trapped on a beach in '
+           'the Australian town of Mallacoota after fire encircled a tourist '
+           'area. While people said they are witnessing embers falling around '
+           'them, videos show skies turning red in the town. Authorities had '
+           'asked around 30,000 tourists to leave the area as the bushfires '
+           'engulfed several regions in the country.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '11:00 am',
+ 'title': ['4,000 trapped on Australia beach encircled by fire; skies turn '
+           "'red'"]}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['Former Nissan Chairman Carlos Ghosn, who is facing charges of '
+           "financial misconduct in Japan, has 'fled' the country to take "
+           "refuge in Lebanon's Beirut. Ghosn, who was arrested in 2018 and "
+           'released under bail conditions that he would not leave Japan, was '
+           'supposed to face trial in 2020. Ghosn said, "I haven\'t fled '
+           'justice, I\'ve escaped injustice and political persecution." ',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:50 am',
+ 'title': ["Ex-Nissan chief Carlos Ghosn 'flees' to Lebanon amid pending Japan "
+           'trial']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Atul Mishra',
+ 'story': ['Commenting on deaths of people protesting against the Citizenship '
+           '(Amendment) Act in Uttar Pradesh, SP leader Akhilesh Yadav has '
+           'alleged that CM Yogi Adityanath "gave free hand to police to save '
+           'his chair" because "over 200 MLAs were upset with him". "This '
+           "state has seen great CMs...but none of them would've said 'thok "
+           'do\' on the House floor," Akhilesh added.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:15 am',
+ 'title': ['Yogi gave free hand to cops to save chair: Akhilesh on CAA '
+           'protests']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dishant Sharma',
+ 'story': ['Writing about the spat between MC Mary Kom and Nikhat Zareen, '
+           'India\'s Sports Minister Kiren Rijiju stated, "Nikhat Zareen is an '
+           'amazing boxer who has the potential to follow the footsteps of '
+           'Mary Kom. India is proud of both of them. Period..." Mary defeated '
+           'Zareen 9-1 in the trials held on Saturday to make the squad for '
+           "February's Olympic Qualifiers.",
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '08:41 am',
+ 'title': ['Country proud of both Mary Kom and Nikhat Zareen: Rijiju']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['German automaker BMW has filed a patent for a technology that '
+           'wirelessly charges electric motorcycles through their kickstands. '
+           "It depicts the bike's stand being placed on a charging pad on the "
+           "ground that has a coil of wire running AC current. The kickstand's "
+           'tip is also equipped with an AC coil, converting electromagnetic '
+           'current from the pad into electric current.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:14 am',
+ 'title': ['BMW files patent to charge electric motorcycle through its '
+           'kickstand']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Jigyasu',
+ 'story': ['A complaint box named "Black Box" has been placed at Ghaziabad '
+           "District Magistrate's office for people to drop their complaints "
+           'against government officials or employees who demand a bribe or '
+           'other forms of gratification. "In order to bring transparency, we '
+           'have placed the complaint box here," said DM Ajay Shankar Pandey. '
+           'Government officials can also drop their complaints, Pandey added.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '11:09 am',
+ 'title': ["Ghaziabad DM places 'Black Box' at office for complaints against "
+           'officials']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Atul Mishra',
+ 'story': ['Congress General Secretary Priyanka Gandhi on Tuesday took to '
+           'Twitter to post a Goddess Durga mantra. This comes a day after '
+           'Priyanka said, "Yogi Ji (Adityanath) wears bhagwa '
+           "(saffron)...it's a symbol of the Hindu religion...no place for "
+           'revenge...in that religion." Earlier, Adityanath had said that his '
+           'government will take "revenge" from those damaging public '
+           'properties during anti-CAA protests.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '09:43 am',
+ 'title': ['Cong General Secretary Priyanka Gandhi tweets Goddess Durga '
+           'mantra']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Atul Mishra',
+ 'story': ['Union Minister Giriraj Singh on Sunday took to Twitter and wrote '
+           'that although Prime Minister Narendra Modi has "shattered '
+           "Pakistan's dream of 'Ghazwa-e-Hind' (a war of conquering "
+           'India)", Congress leader Rahul Gandhi "wants to walk with it". '
+           '"It\'s not an attempt to oppose the CAA, NPR and NRC....but [Rahul '
+           'wants] Rohingya and Pakistani Muslims come to India," Giriraj '
+           'added.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '10:16 am',
+ 'title': ["Rahul Gandhi wants to walk with 'Ghazwa-e-Hind' of Pak: Giriraj "
+           'Singh']}
+2019-12-31 11:26:32 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Shailesh',
+ 'story': ["Somalia's National Intelligence & Security Agency (NISA) said that "
+           'a foreign country had helped plan the December 28 blast in '
+           'Mogadishu that killed over 80 people. NISA added that it would '
+           'investigate the incident with the help of a foreign intelligence '
+           'agency. No one has claimed the responsibility for the blast '
+           "however Mogadishu's Mayor blamed al-Qaeda-linked group al-Shabaab "
+           'for it.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '31 Dec 2019,Tuesday',
+ 'story_time': '08:58 am',
+ 'title': ['Foreign country helped plan blast that killed over 80: Somalia']}
+2019-12-31 11:26:32 [scrapy] INFO: Closing spider (finished)
+2019-12-31 11:26:32 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1356,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 130784,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 1.816225,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 31, 5, 56, 32, 267549),
+ 'item_scraped_count': 54,
+ 'log_count/DEBUG': 60,
+ 'log_count/INFO': 7,
+ 'response_received_count': 6,
+ 'robotstxt/request_count': 3,
+ 'robotstxt/response_count': 3,
+ 'robotstxt/response_status_count/200': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 12, 31, 5, 56, 30, 451324)}
+2019-12-31 11:26:32 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,591 @@
+2019-12-29 16:00:48 [scrapy] DEBUG: Crawled (200) <GET https://www.reuters.com/robots.txt> (referer: None)
+2019-12-29 16:00:48 [scrapy] DEBUG: Crawled (200) <GET https://www.reuters.com/places/india> (referer: None)
+2019-12-29 16:00:48 [scrapy] DEBUG: Crawled (200) <GET https://inshorts.com/robots.txt> (referer: None)
+2019-12-29 16:00:48 [scrapy] ERROR: Spider error processing <GET https://www.reuters.com/places/india> (referer: None)
+Traceback (most recent call last):
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\puja\pycharmprojects\newsscrapper\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Puja\PycharmProjects\NewsScrapper\NewsFeed\NewsFeed\spiders\news_scrapper.py", line 31, in parse_1
+    for news in all_PageHeadLines:
+TypeError: cannot unpack non-iterable Selector object
+2019-12-29 16:00:49 [scrapy] DEBUG: Crawled (200) <GET https://inshorts.com/en/read> (referer: None)
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Ankush Verma',
+ 'story': ['Jharkhand Mukti Morcha (JMM) chief Hemant Soren has been sworn-in '
+           'as the 11th Chief Minister of Jharkhand at a ceremony in Ranchi. '
+           'In the election results announced on December 23, the JMM won 30 '
+           'seats while its alliance partners, Congress and RJD, won 16 and '
+           'one, respectively. The BJP won 25 seats in the state Assembly '
+           'election.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '02:23 pm',
+ 'title': ['Hemant Soren sworn-in as 11th Chief Minister of Jharkhand ']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ["Actor Ajay Devgn has deleted the 'Om' symbol from the Maratha flag "
+           "in the final edit of 'Tanhaji: The Unsung Warrior'. This comes "
+           'after historians pointed out the discrepancy following the trailer '
+           "release, saying the original flag didn't have any symbol on it. "
+           '"We removed \'Om\' because it was a technical error...We realised '
+           'that later," said Ajay. ',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '02:15 pm',
+ 'title': ["Ajay deletes 'Om' from Maratha flag in 'Tanhaji' after historians "
+           'point out error']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ['Actor Zac Efron, who reportedly contracted a disease in Papua New '
+           "Guinea, had to be flown to Australia in a 'life or death' "
+           "situation. He's said to be in stable condition now. Efron was "
+           "there to shoot for 'Killing Zac Efron', which will show his "
+           'journey "deep into the jungle of a remote, dangerous island" for '
+           '21 days.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '03:20 pm',
+ 'title': ['Zac rushed to hospital after contracting deadly disease at shoot: '
+           'Report']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ['Cricketer KL Rahul on Saturday posted a picture with actor Suniel '
+           "Shetty's daughter, actress Athiya Shetty and captioned it, "
+           '"Hello, devi prasad....?", a reference to a dialogue in the 2000 '
+           "film 'Hera Pheri', which starred Suniel. The actor replied on the "
+           'post with a series of laughing emojis. KL Rahul and Athiya are '
+           'rumoured to be dating.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:13 pm',
+ 'title': ['KL Rahul uses Hera Pheri dialogue in pic with Athiya; Suniel posts '
+           'laughing emojis']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Daisy Mowke',
+ 'story': ['A promo for the upcoming episode of Bigg Boss 13 shows host Salman '
+           'Khan entering the house with two helpers and doing the household '
+           'chores including cleaning the toilet and dirty utensils. This was '
+           'after the contestants avoided their duties assigned by new captain '
+           'Shehnaaz Gill. The housemates, locked inside a room, shouted '
+           "'sorry' as Salman kept cleaning the house.",
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '01:15 pm',
+ 'title': ['Salman cleans toilet, utensils in Bigg Boss house as contestants '
+           'avoid duties']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Trivedi Bhutnath',
+ 'story': ['The Chennai police on Sunday detained four women and a man for '
+           "drawing Kolam (Rangoli) outside people's house and common places "
+           'with anti-CAA slogans. Police also detained two lawyers who went '
+           "to the police station. The police cited 'unlawful assembly' as the "
+           "reason for their detention and said that they didn't seek prior "
+           'permission for the rangoli protest.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '03:08 pm',
+ 'title': ["Protesters draw 'Rangoli' with anti-CAA slogans in Chennai, get "
+           'detained']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Apaar Sharma',
+ 'story': ['Uttar Pradesh Deputy CM Keshav Prasad Maurya has said it was not '
+           'wrong for Meerut (City) SP Akhilesh N Singh to ask '
+           'anti-Citizenship Act protesters to go to Pakistan because he told '
+           'it to those who were raising pro-Pakistan slogans and pelting '
+           'stones. The SP had said that his comments were in reaction to some '
+           '"anti-social elements making pro-Pakistan statements".',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '03:44 pm',
+ 'title': ["Not wrong: UP Deputy CM on Meerut  SP's 'go to Pakistan' remark"]}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Trivedi Bhutnath',
+ 'story': ["BSP MLA Ramabai Parihar from Madhya Pradesh's Patharia has been "
+           'suspended from the party for supporting Citizenship (Amendment) '
+           'Act, party chief Mayawati has tweeted. She further tweeted that '
+           'Parihar, who had been warned to walk the party line several times '
+           'in the past, has been banned from participating in any party '
+           'program.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '01:20 pm',
+ 'title': ['BSP MLA Ramabai Parihar supports CAA, gets suspended from party']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Anmol Sharma',
+ 'story': ['Recalling the 2001 Eden Gardens Test against Australia, BCCI '
+           'President and former India captain Sourav Ganguly said that when '
+           'he saw Harbhajan Singh take 13 wickets, it was love at first '
+           'sight. He added that he believed that Harbhajan would go on to '
+           'change things for Indian cricket. "I believed in match-winners, '
+           'flamboyant players who were fearless," the 47-year-old added.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '03:50 pm',
+ 'title': ['It was love at first sight: Ganguly on Harbhajan taking 13 wickets '
+           'vs Australia']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Pragya Swastik',
+ 'story': ["Samsung has announced that it's experimenting with hands-free "
+           "typing technology called 'SelfieType', a virtual keyboard using "
+           "the front-facing selfie camera. The technology uses a device's "
+           "selfie camera and AI to translate a person's finger movements into "
+           'keyboard input. SelfieType requires no additional hardware and '
+           "it's adaptable to various mobile devices such as smartphones and "
+           'tablets.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '03:41 pm',
+ 'title': ['Samsung announces project on hands-free typing using selfie '
+           'camera']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Ankush Verma',
+ 'story': ['Commenting on UP Police "manhandling" Priyanka Gandhi in Lucknow, '
+           'Shatrughan Sinha tweeted, "This is highly condemnable...Aise '
+           'damage control nahin hota." "Police misbehaving with the \'Beti\' '
+           'of the most prominent #NehruGandhi family in the country...dread '
+           'to think what the commoners could face," he said. "UP Police under '
+           "government's instructions dealt with her in most shameful "
+           'manner," he added.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '02:08 pm',
+ 'title': ["Aise damage control nahin hota: Sinha on UP Police 'manhandling' "
+           'Priyanka']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Ankush Verma',
+ 'story': ['A 67-year-old man named Kochaniyan Menon married 65-year-old '
+           "Lakshmi Ammal at a government-run old age home in Kerala's "
+           'Thrissur on Saturday, with pictures from their wedding ceremony '
+           'surfacing online. Even before she came to the old age home, '
+           'Lakshmi Ammal knew Kochaniyan for about 30 years. Kochaniyan '
+           'worked as an assistant for her husband, who passed away 21 years '
+           'ago.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:16 pm',
+ 'title': ['67-yr-old man marries 65-yr-old woman at Kerala old age home; pics '
+           'surface']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Trivedi Bhutnath',
+ 'story': ['Speaking about the implementation of nation-wide NRC, Union Law '
+           'Minister Ravi Shankar Prasad has said that there will be a '
+           'consultation with the state governments and feedback will be '
+           'taken. "There is a legal process. If anything is to be done, it '
+           'will be done publicly. Nothing will be a secret on an NRC," he '
+           'further said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:53 pm',
+ 'title': ['Will consult states before nation-wide NRC: Law Minister Ravi '
+           'Shankar Prasad']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Ankush Verma',
+ 'story': ['Pakistan PM Imran Khan on Saturday said, "India\'s lobby in the US '
+           'right now is far more powerful than Pakistan\'s." He added that '
+           'the Indian lobby in the US was playing a key role in strengthening '
+           'India\'s narrative against Pakistan. "India\'s viewpoint always '
+           "overshadows that of Pakistan and US' policies for Pakistan are "
+           'affected by that viewpoint," he further said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '01:15 pm',
+ 'title': ["India's lobby in US far more powerful than Pakistan's: Pak PM "
+           'Imran Khan']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Ankush Verma',
+ 'story': ['Five bodies and two human heads have been discovered inside a '
+           'boat, suspected to be from North Korea, that washed ashore on '
+           "Japan's Sado Island on Friday. Authorities gained access to the "
+           'boat on Saturday. Authorities could not immediately confirm '
+           'whether the heads belonged to the five bodies or were from two '
+           'other people, saying that is being investigated.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:10 pm',
+ 'title': ['Boat with 5 bodies, 2 human heads washes up on Japan island']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['Finance Minister Nirmala Sitharaman has said that the health of '
+           'public sector banks (PSBs) has been restored due to extensive '
+           'government reforms. Out of 19 loss-making PSBs, 13 had returned to '
+           'profitability in the first half of 2019-20, she added. The bad '
+           'loans or gross non-performing assets (NPAs) of the PSBs have '
+           'fallen 18% since March 2018, Sitharaman further said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:03 pm',
+ 'title': ['Health of public sector banks restored, 13 reported profit: FM']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Udit Gupta',
+ 'story': ['Actor Sunny Singh has said his comparison with Kartik Aaryan '
+           'doesn\'t hold any importance, stating, "[He] '
+           'isn\'t...contemporary. He\'s more like a brother." "I think I\'m '
+           'my sole competition and see only myself in my league," he added. '
+           '"I\'m really happy with...kind of work Kartik is doing...it gives '
+           'me immense joy every time I see him on screen," Sunny further '
+           'said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '01:46 pm',
+ 'title': ["Kartik isn't contemporary, he's more like a brother: Sunny Singh"]}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Udit Gupta',
+ 'story': ['Saif Ali Khan has said female actors should be paid as much as '
+           'their male counterparts and added that the film industry is '
+           '"terribly unfair". "Industry is...economically driven, so...people '
+           'that pull at...box office [gets]...more," he added. This comes '
+           'after Kareena Kapoor talked about pay disparity in the film '
+           "industry and said it's difficult for female actors to negotiate "
+           'with producers.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '02:02 pm',
+ 'title': ["Actresses should be paid as much as actors, it's terribly unfair: "
+           'Saif']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Udit Gupta',
+ 'story': ['On being asked about what Dwayne Johnson is like when cameras '
+           'aren\'t rolling, actor Ryan Reynolds said, "Off-camera, he\'s sort '
+           'of a lot like on-camera." "Less violent. As energetic and '
+           'kind...just a genuine article," he added. Ryan will be seen '
+           "alongside Dwayne in the film 'Red Notice'. Directed by Rawson "
+           'Marshall Thurber, the film is scheduled to release in 2021.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '11:50 am',
+ 'title': ["Off-camera, Dwayne is a lot like he's on-camera: Ryan Reynolds"]}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Udit Gupta',
+ 'story': ["Actor Bhavin Bhanushali, who played Ajay Devgn's son in film 'De "
+           'De Pyaar De\', has said Ajay is the "best person" as he doesn\'t '
+           'discriminate between big and small artistes. "We\'d usually play '
+           'snooker and table tennis together after pack-up," he added. Bhavin '
+           'further said that Ajay used to give him tips on acting, adding, '
+           '"That was...good learning experience."',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '02:00 pm',
+ 'title': ["Ajay doesn't discriminate between big and small artistes: Actor "
+           'Bhavin']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['After YouTube faced backlash for mass deleting videos related to '
+           'Bitcoin and other cryptocurrencies, the video-sharing platform '
+           'admitted it had removed the videos mistakenly and has reinstated '
+           "them since. The 'error' was reported to have affected over 25 "
+           'YouTube creators. YouTube had flagged the videos saying they '
+           'displayed "harmful or dangerous content" and content on "sale of '
+           'regulated goods".',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:49 pm',
+ 'title': ['YouTube criticised for mass deleting crypto videos, calls it '
+           "'error'"]}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Trivedi Bhutnath',
+ 'story': ["Udupi's Pejavara Mutt head Vishwesha Teertha Swami passed away on "
+           'Sunday at the age of 88 after he was hospitalised on December 20 '
+           'due to breathing problems. He was the only seer to have ascended '
+           "the 'Paryaya Peetha' five times since the system of transferring "
+           'power between the eight mutts surrounding the Udupi Sri Krishna '
+           'temple began in 1522.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '12:19 pm',
+ 'title': ['Pejavara Mutt head Vishwesha Teertha Swami passes away at 88']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['Union Minister of State for Power RK Singh has said that under a '
+           'new tariff policy, power companies would be prohibited from '
+           'passing on their losses to consumers beyond a limit. The policy '
+           'will likely be unveiled within a month. "We\'re building the '
+           'rights of the consumers. Right now there is no charter of rights '
+           'of electricity consumers," Singh said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '11:57 am',
+ 'title': ['New policy to ban power companies from passing losses to users: '
+           'MoS']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ['Six of the 10 most valued Indian companies lost ₹64,419 crore in '
+           'market valuation last week, with Reliance Industries (RIL) '
+           'emerging as the top loser. Tata Consultancy Services (TCS), HDFC '
+           'Bank, Kotak Mahindra Bank, SBI and ITC also witnessed a decline in '
+           'their market capitalisation. Emerging as the gainers were HDFC, '
+           'Hindustan Unilever (HUL), ICICI Bank and Infosys.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '02:57 pm',
+ 'title': ['6 of top 10 Indian firms lose ₹64,419 crore in m-cap, RIL worst '
+           'hit']}
+2019-12-29 16:00:49 [scrapy] DEBUG: Scraped from <200 https://inshorts.com/en/read>
+{'author': 'Dharna',
+ 'story': ["Finance Minister Nirmala Sithraman has launched 'eBkray', an "
+           'online common platform for the auction of assets attached by '
+           'public sector banks (PSBs). Aimed at increasing transparency, the '
+           'site is equipped with property search tools and navigational links '
+           'to all PSB e-auction sites and also contains photographs of '
+           'uploaded properties. Over 35,000 properties have been uploaded to '
+           'eBkray, she said.',
+           '\n      ',
+           ' by ',
+           ' / \n      ',
+           ' on ',
+           '\n    '],
+ 'story_date': '29 Dec 2019,Sunday',
+ 'story_time': '01:46 pm',
+ 'title': ["FM launches 'eBkray' auction platform for assets attached by "
+           'banks']}
+2019-12-29 16:00:57 [scrapy] DEBUG: Crawled (200) <GET https://timesofindia.indiatimes.com/robots.txt> (referer: None)
+2019-12-29 16:01:03 [scrapy] DEBUG: Crawled (200) <GET https://timesofindia.indiatimes.com/india> (referer: None)
+2019-12-29 16:01:03 [scrapy] DEBUG: Scraped from <200 https://timesofindia.indiatimes.com/india>
+{'story_time': ['29 Dec 2019, 15:43',
+                '29 Dec 2019, 15:33',
+                '29 Dec 2019, 15:39',
+                '29 Dec 2019, 15:17',
+                '29 Dec 2019, 14:57',
+                '29 Dec 2019, 14:40',
+                '29 Dec 2019, 14:56',
+                '29 Dec 2019, 14:33',
+                '29 Dec 2019, 14:48',
+                '29 Dec 2019, 14:03',
+                '29 Dec 2019, 13:39',
+                '29 Dec 2019, 13:33',
+                '29 Dec 2019, 13:21',
+                '29 Dec 2019, 13:20',
+                '29 Dec 2019, 14:20',
+                '29 Dec 2019, 14:21',
+                '29 Dec 2019, 12:57',
+                '29 Dec 2019, 12:45',
+                '29 Dec 2019, 12:33',
+                '29 Dec 2019, 12:30',
+                '29 Dec 2019, 14:22',
+                '29 Dec 2019, 12:18',
+                '29 Dec 2019, 12:13',
+                '29 Dec 2019, 13:14',
+                '29 Dec 2019, 11:51',
+                '29 Dec 2019, 11:45',
+                '29 Dec 2019, 11:44',
+                '29 Dec 2019, 12:41',
+                '29 Dec 2019, 11:26',
+                '29 Dec 2019, 10:58',
+                '29 Dec 2019, 11:15',
+                '29 Dec 2019, 10:39',
+                '29 Dec 2019, 10:38',
+                '29 Dec 2019, 09:08',
+                '29 Dec 2019, 08:41',
+                '29 Dec 2019, 08:09',
+                '29 Dec 2019, 11:30',
+                '29 Dec 2019, 05:42',
+                '29 Dec 2019, 05:39',
+                '29 Dec 2019, 05:36',
+                '29 Dec 2019, 05:31',
+                '29 Dec 2019, 05:22',
+                '29 Dec 2019, 05:17',
+                '29 Dec 2019, 05:10',
+                '29 Dec 2019, 05:04',
+                '29 Dec 2019, 05:00',
+                '29 Dec 2019, 04:45',
+                '29 Dec 2019, 04:40',
+                '29 Dec 2019, 04:35'],
+ 'title': ['Mega reforms in medical education sector, e-cigarettes ban '
+           'highlights of health ministry in 2019',
+           'Rahul Gandhi condoles demise of Vishwesha Teertha Swami',
+           'Mann ki Baat: PM Modi praises efforts of Phoolpur women towards '
+           'self-sufficiency',
+           "PM Modi lauds MPs for 'record-breaking' Parliament sessions",
+           'Priyanka Gandhi extends her Lucknow stay',
+           'Hemant Soren takes oath as 11th chief minister of Jharkhand',
+           'India-US strategic partnership registers rapid growth in 2019',
+           'Mulayam Singh hospitalised in Mumbai for abdominal health issues',
+           'PM Modi urges people to go local for purchasing',
+           'PM Modi urges people to take up task to uplift poor',
+           'Mayawati suspends BSP MLA for supporting CAA',
+           'Deeply pained to learn about the demise of Vishwesha Teertha '
+           'Swami: Home minister Amit Shah',
+           'Modi govt determined to take care of families of central security '
+           'forces personnel: Amit Shah',
+           'I was heckled when I enquired where Priyanka Gandhi was heading: '
+           'Woman police officer',
+           'Hemant Soren set to take oath as 11th chief minister of Jharkhand',
+           'Mann Ki Baat: PM stresses on buying indigenous products to support '
+           'local artisans',
+           'Robert Vadra slams manhandling of Priyanka by UP cop',
+           'Mann Ki Baat: PM Modi commends J&K initiative HIMAYAT',
+           'Mann Ki Baat: PM Modi urges youth to buy local products',
+           'NRC an internal affair of Indian government: Border Guards '
+           'Bangladesh DG',
+           "Mann ki Baat: Sankalp 95 in Bihar comes for PM's praise",
+           'Delhi courts see big names in politics, biz in 2019: Chidambaram, '
+           'Shivakumar, Vadra, Singh brothers',
+           'Youth hate instability, anarchy: PM Modi on Mann Ki Baat',
+           'West Bengal in 2019: BJP breaches TMC citadel; state astir over '
+           'poll violence, anti-CAA protests',
+           "Meerut cop's 'Go to Pakistan' comment: Mukhtar Abbas Naqvi demands "
+           'immediate action',
+           "PM Narendra Modi's Mann ki Baat address: Top quotes",
+           'Is Jagan Mohan dumping Amaravati due to Kamma factor?',
+           'Tatas gaining upper hand in decision-making at AirAsia India, says '
+           'source',
+           'PM Modi condoles death of Pejawar Mutt seer  Swami Vishwesha '
+           'Teertha',
+           'Vishwesha Teertha Swami: A Seer who practiced inclusiveness',
+           'Pejavara Mutt Seer Vishwesha Teertha Swami passes away: Key '
+           'incidents in life of Seer',
+           'Dance bar raided in Mumbai; 7 arrested, 5 women rescued',
+           'Top 5 health news that kept Indians worried in 2019',
+           'Hemant Soren to take oath as 11th CM of Jharkhand today',
+           "PM Modi to address final 'Mann Ki Baat' of 2019 today",
+           'BBC sees ghost in BHU’s ‘Bhoot Vidya’, gets panned',
+           'Twitter poll on journalist deplorable: Editors Guild',
+           'Aasu seeks debate with PM, dares Himanta on his turf',
+           '6 cops booked in Bijnor for killing anti-CAA protester',
+           'BJP member tries to ‘explain’ CAA to locals in UP, thrashed',
+           '‘British informers’ now questioning Cong’s legacy: Ashok Gehlot',
+           '2 held for posing as Shah, duping Haryana minister of Rs 3cr',
+           'Shiv Sena fumes over ‘mean’ scribbles on CM Uddhav Thackeray’s '
+           'bungalow',
+           'After ‘interference’ row, govt sets up new statistics panel',
+           'Don’s daughter gets passport with fake papers, arrested',
+           'Muslims to lay claim on Babri Masjid debris',
+           'Deaths of kids: Kota hospital chief shifted',
+           '‘Enlightened debate’ needed on major issues: Venkaiah Naidu']}
+2019-12-29 16:01:03 [scrapy] INFO: Closing spider (finished)
+2019-12-29 16:01:03 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1356,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 128839,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 15.591871,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 29, 10, 31, 3, 467354),
+ 'item_scraped_count': 26,
+ 'log_count/DEBUG': 32,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 6,
+ 'robotstxt/request_count': 3,
+ 'robotstxt/response_count': 3,
+ 'robotstxt/response_status_count/200': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2019, 12, 29, 10, 30, 47, 875483)}
+2019-12-29 16:01:03 [scrapy] INFO: Spider closed (finished)
